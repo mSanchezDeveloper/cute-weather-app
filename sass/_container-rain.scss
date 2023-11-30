@@ -1,0 +1,14 @@
+@use 'variables';
+
+.container-rain {
+    background: rgb(57, 50, 54);
+    background: linear-gradient(180deg, rgba(57, 50, 54, 1) 0%, rgba(28, 145, 245, 1) 100%);
+}
+
+footer p,
+#place,
+#main,
+#description,
+#temperature {
+    color: variables.$white-color;
+}

@@ -15,10 +15,9 @@ body {
 }
 
 #main-container {
-  background: rgb(57, 50, 54);
-  background: linear-gradient(180deg, rgb(57, 50, 54) 0%, rgb(28, 145, 245) 100%);
   max-width: 100vw;
   height: 100vh;
+  text-align: center;
 }
 
 .container {
@@ -27,12 +26,90 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container header {
-  background-color: red;
   text-align: center;
   padding: 1em 0;
+}
+
+#image-weather {
+  padding: 1em;
+}
+
+#place,
+#main,
+#description,
+#temperature {
+  color: #fefdfa;
+  padding: 0.15em;
+  text-transform: capitalize;
+  line-height: 26px;
+}
+
+footer p {
+  color: #fefdfa;
+  font-size: 11px;
+  padding: 1em;
+}
+
+.container-thunderstorm {
+  background: rgb(57, 50, 54);
+  background: linear-gradient(180deg, rgb(57, 50, 54) 0%, rgb(28, 145, 245) 100%);
+}
+
+.container-rain {
+  background: rgb(57, 50, 54);
+  background: linear-gradient(180deg, rgb(57, 50, 54) 0%, rgb(28, 145, 245) 100%);
+}
+
+footer p,
+#place,
+#main,
+#description,
+#temperature {
+  color: #fefdfa;
+}
+
+.container-llovizna {
+  background: rgb(57, 50, 54);
+  background: linear-gradient(180deg, rgb(57, 50, 54) 0%, rgb(28, 145, 245) 100%);
+}
+
+.container-nieve {
+  background: rgb(57, 50, 54);
+  background: linear-gradient(180deg, rgb(57, 50, 54) 0%, rgb(28, 145, 245) 100%);
+}
+
+.container-despejado {
+  background: rgb(243, 86, 17);
+  background: linear-gradient(180deg, rgb(243, 86, 17) 0%, rgb(237, 188, 16) 100%);
+}
+
+footer p, #place, #main, #description, #temperature {
+  color: #272125;
+}
+
+.container-atmosfera {
+  background: rgb(243, 86, 17);
+  background: linear-gradient(180deg, rgb(243, 86, 17) 0%, rgb(237, 188, 16) 100%);
+}
+
+footer p, #place, #main, #description, #temperature {
+  color: #272125;
+}
+
+.container-nublado {
+  background: rgb(28, 145, 245);
+  background: linear-gradient(180deg, rgb(28, 145, 245) 0%, rgb(237, 188, 16) 100%);
+}
+
+footer p, #place, #main, #description, #temperature {
+  color: #272125;
 }
 
 /*# sourceMappingURL=style.css.map */

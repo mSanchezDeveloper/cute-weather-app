@@ -1,0 +1,10 @@
+@use 'variables';
+
+.container-atmosfera {
+    background: rgb(243, 86, 17);
+    background: linear-gradient(180deg, rgba(243, 86, 17, 1) 0%, rgba(237, 188, 16, 1) 100%);
+}
+
+footer p, #place, #main, #description, #temperature {
+    color: variables.$black-color;
+}

@@ -1,20 +1,45 @@
+@use 'variables';
+
 #main-container {
-    background: rgb(57, 50, 54);
-    background: linear-gradient(180deg, rgba(57, 50, 54, 1) 0%, rgba(28, 145, 245, 1) 100%);
     max-width: 100vw;
     height: 100vh;
+    text-align: center;
 }
 
-.container{
+.container {
     background-color: transparent;
     max-width: 500px;
     width: 100%;
     height: 100vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.container header{
-    background-color: red;
+.container header {
     text-align: center;
     padding: 1em 0;
+}
+
+#image-weather {
+    padding: 1em;
+}
+
+#place,
+#main,
+#description,
+#temperature {
+    color: variables.$white-color;
+    padding: 0.15em;
+    text-transform: capitalize;
+    line-height: 26px;
+}
+
+footer p {
+    color: variables.$white-color;
+    font-size: 11px;
+    padding: 1em;
 }
