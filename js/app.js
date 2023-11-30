@@ -24,29 +24,40 @@ window.addEventListener('load', () => {
 
                     switch (data.weather[0].main) {
                         case 'Thunderstorm':
-                            iconoAnimado.src = 'animated/thunder.svg'
-                            console.log('TORMENTA');
+                            imageWeather.src = './assets/image/thunderstorm.png'
+                            containerWheaterApp.className += "container-thunderstorm"
+                            mainDescription.textContent = `Tormenta`;
+                            console.log('Tormenta');
                             break;
                         case 'Drizzle':
-                            iconoAnimado.src = 'animated/rainy-2.svg'
-                            console.log('LLOVIZNA');
+                            imageWeather.src = './assets/image/llovizna.png'
+                            containerWheaterApp.className += "container-llovizna"
+                            mainDescription.textContent = `Llovizna`;
+                            console.log('Llovizna');
                             break;
                         case 'Rain':
                             imageWeather.src = './assets/image/rain.png'
                             containerWheaterApp.className += "container-rain"
-                            console.log('LLUVIA');
+                            mainDescription.textContent = `Lluvia`;
+                            console.log('Lluvia');
                             break;
                         case 'Snow':
-                            iconoAnimado.src = 'animated/snowy-6.svg'
-                            console.log('NIEVE');
+                            imageWeather.src = './assets/image/nieve.png'
+                            containerWheaterApp.className += "container-llovizna"
+                            mainDescription.textContent = `Llovizna`;
+                            console.log('Llovizna');
                             break;
                         case 'Clear':
-                            iconoAnimado.src = 'animated/day.svg'
-                            console.log('LIMPIO');
+                            imageWeather.src = './assets/image/despejado.png'
+                            containerWheaterApp.className += "container-despejado"
+                            mainDescription.textContent = `Despejado`;
+                            console.log('Despejado');
                             break;
                         case 'Atmosphere':
-                            iconoAnimado.src = 'animated/weather.svg'
-                            console.log('ATMOSFERA');
+                            imageWeather.src = './assets/image/atmosfera.png'
+                            containerWheaterApp.className += "container-atmosfera"
+                            mainDescription.textContent = `Atmosfera`;
+                            console.log('Atmosfera');
                             break;
                         case 'Clouds':
                             imageWeather.src = './assets/image/nublado.png'
@@ -55,8 +66,10 @@ window.addEventListener('load', () => {
                             console.log('NUBES');
                             break;
                         default:
-                            iconoAnimado.src = 'animated/cloudy-day-1.svg'
-                            console.log('por defecto');
+                            imageWeather.src = './assets/image/atmosfera.png'
+                            containerWheaterApp.className += "container-atmosfera"
+                            mainDescription.textContent = `Atmosfera`;
+                            console.log('Atmosfera');
                     }
                 })
 
