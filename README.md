@@ -42,7 +42,7 @@ git clone https://github.com/mSanchezDeveloper/cute-weather-app
 
 2. Navega al directorio del proyecto:
 ```bash
-cd nombre-del-repositorio
+cd https://github.com/mSanchezDeveloper/cute-weather-app
 ```
 
 3. Abre `index.html` en tu navegador preferido.
