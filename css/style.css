@@ -92,7 +92,7 @@ footer p,
 }
 
 footer p, #place, #main, #description, #temperature {
-  color: #272125;
+  color: #fefdfa;
 }
 
 .container-atmosfera {
@@ -101,7 +101,7 @@ footer p, #place, #main, #description, #temperature {
 }
 
 footer p, #place, #main, #description, #temperature {
-  color: #272125;
+  color: #fefdfa;
 }
 
 .container-nublado {
@@ -110,7 +110,7 @@ footer p, #place, #main, #description, #temperature {
 }
 
 footer p, #place, #main, #description, #temperature {
-  color: #272125;
+  color: #fefdfa;
 }
 
 /*# sourceMappingURL=style.css.map */
