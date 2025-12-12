@@ -37,7 +37,7 @@ Este proyecto es una aplicación web desarrollada para practicar las operaciones
 
 1. Clona este repositorio:
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/mSanchezDeveloper/cute-weather-app
 ```
 
 2. Navega al directorio del proyecto:
